@@ -2,7 +2,7 @@
 <cubicsdr_config>
     <window>
         <x>0</x>
-        <y>32</y>
+        <y>69</y>
         <w>1920</w>
         <h>892</h>
         <max>1</max>
@@ -11,7 +11,7 @@
         <theme>0</theme>
         <font_scale>0</font_scale>
         <snap>1</snap>
-        <center_freq>11800000</center_freq>
+        <center_freq>26960000</center_freq>
         <waterfall_lps>28</waterfall_lps>
         <spectrum_avg>0.331522</spectrum_avg>
         <modemprops_collapsed>0</modemprops_collapsed>

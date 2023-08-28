@@ -220,7 +220,7 @@
             <modem>
                 <bandwidth>40000</bandwidth>
                 <frequency>137100000</frequency>
-                <type>CW</type>
+                <type>FM</type>
                 <user_label>%4e%4f%41%41%20%31%39</user_label>
                 <squelch_level>-100</squelch_level>
                 <squelch_enabled>1</squelch_enabled>
@@ -228,16 +228,47 @@
                 <gain>1</gain>
                 <muted>0</muted>
                 <active>1</active>
-                <settings>
-                    <auto>on</auto>
-                    <gain>31.163895</gain>
-                    <offset>650.000000</offset>
-                </settings>
             </modem>
             <modem>
-                <bandwidth>41084</bandwidth>
+                <bandwidth>40000</bandwidth>
+                <frequency>137500000</frequency>
+                <type>FM</type>
+                <user_label>%4e%4f%41%41%20%31%37</user_label>
+                <squelch_level>-100</squelch_level>
+                <squelch_enabled>1</squelch_enabled>
+                <output_device>Built-in Audio</output_device>
+                <gain>2.09836</gain>
+                <muted>0</muted>
+                <active>1</active>
+            </modem>
+            <modem>
+                <bandwidth>40000</bandwidth>
+                <frequency>137500000</frequency>
+                <type>FM</type>
+                <user_label>%4e%4f%41%41%20%31%32</user_label>
+                <squelch_level>-100</squelch_level>
+                <squelch_enabled>1</squelch_enabled>
+                <output_device>Built-in Audio</output_device>
+                <gain>2.09836</gain>
+                <muted>0</muted>
+                <active>1</active>
+            </modem>
+            <modem>
+                <bandwidth>40000</bandwidth>
+                <frequency>137620000</frequency>
+                <type>FM</type>
+                <user_label>%4e%4f%41%41%20%31%35</user_label>
+                <squelch_level>-100</squelch_level>
+                <squelch_enabled>1</squelch_enabled>
+                <output_device>Built-in Audio</output_device>
+                <gain>2.09836</gain>
+                <muted>0</muted>
+                <active>1</active>
+            </modem>
+            <modem>
+                <bandwidth>40000</bandwidth>
                 <frequency>137912500</frequency>
-                <type>CW</type>
+                <type>FM</type>
                 <user_label>%4e%4f%41%41%20%31%38</user_label>
                 <squelch_level>-100</squelch_level>
                 <squelch_enabled>1</squelch_enabled>
@@ -245,11 +276,6 @@
                 <gain>2.09836</gain>
                 <muted>0</muted>
                 <active>1</active>
-                <settings>
-                    <auto>on</auto>
-                    <gain>23.7839</gain>
-                    <offset>650</offset>
-                </settings>
             </modem>
         </group>
         <group name="PMR" expanded="false">
@@ -446,7 +472,7 @@
                 <active>1</active>
             </modem>
         </group>
-        <group name="Przemienniki - 2 m" expanded="false">
+        <group name="Przemienniki - 2 m" expanded="true">
             <modem>
                 <bandwidth>10152</bandwidth>
                 <frequency>145600000</frequency>
@@ -472,7 +498,7 @@
                 <active>1</active>
             </modem>
         </group>
-        <group name="Przemienniki - 70 cm" expanded="false">
+        <group name="Przemienniki - 70 cm" expanded="true">
             <modem>
                 <bandwidth>12500</bandwidth>
                 <frequency>437800000</frequency>
@@ -525,202 +551,16 @@
     </modems>
     <recent_modems>
         <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446006525</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31</user_label>
+            <bandwidth>40000</bandwidth>
+            <frequency>137500000</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%32</user_label>
             <squelch_level>-100</squelch_level>
             <squelch_enabled>1</squelch_enabled>
             <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
+            <gain>2.09836</gain>
             <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446043750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%33</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446043250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%33</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446054243</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%32</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446018816</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%32</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446031250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%33</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446006250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446031250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%33</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446043750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%34</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446056250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%35</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446068750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%36</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446081392</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%37</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446093750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%38</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446106250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%39</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446118750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31%30</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446131250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31%31</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446143750</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31%32</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
-        </modem>
-        <modem>
-            <bandwidth>12500</bandwidth>
-            <frequency>446156250</frequency>
-            <type>NBFM</type>
-            <user_label>%4b%61%6e%61%c5%82%20%31%33</user_label>
-            <squelch_level>-100</squelch_level>
-            <squelch_enabled>1</squelch_enabled>
-            <output_device>Built-in Audio</output_device>
-            <gain>1</gain>
-            <muted>0</muted>
+            <active>1</active>
         </modem>
         <modem>
             <bandwidth>12500</bandwidth>
@@ -800,9 +640,227 @@
             <muted>0</muted>
             <settings>
                 <auto>on</auto>
-                <gain>31.110437</gain>
+                <gain>31.1104</gain>
+                <offset>650</offset>
+            </settings>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137100000</frequency>
+            <type>CW</type>
+            <user_label>%4e%4f%41%41%20%31%39</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+            <settings>
+                <auto>on</auto>
+                <gain>19.1032</gain>
+                <offset>650</offset>
+            </settings>
+        </modem>
+        <modem>
+            <bandwidth>7096</bandwidth>
+            <frequency>137140667</frequency>
+            <type>NBFM</type>
+            <user_label />
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137100488</frequency>
+            <type>CW</type>
+            <user_label>%4e%4f%41%41%20%31%39</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+            <settings>
+                <auto>on</auto>
+                <gain>19.1377</gain>
+                <offset>650</offset>
+            </settings>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137100000</frequency>
+            <type>CW</type>
+            <user_label>%4e%4f%41%41%20%31%39</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+            <settings>
+                <auto>on</auto>
+                <gain>19.2666</gain>
+                <offset>650</offset>
+            </settings>
+        </modem>
+        <modem>
+            <bandwidth>12070</bandwidth>
+            <frequency>438550000</frequency>
+            <type>NBFM</type>
+            <user_label>%45%6c%62%6c%c4%85%67%20%53%52%32%45%4c%20%2d%20%34%33%38%2e%35%35%30%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12500</bandwidth>
+            <frequency>439025101</frequency>
+            <type>NBFM</type>
+            <user_label>%43%68%77%61%73%7a%63%7a%79%6e%6f%20%53%52%32%47%54%20%2d%20%34%33%39%2e%30%32%35%30</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12500</bandwidth>
+            <frequency>438975000</frequency>
+            <type>NBFM</type>
+            <user_label>%57%c5%82%61%64%79%73%c5%82%61%77%6f%77%6f%20%53%52%32%47%41%20%2d%20%34%33%38%2e%39%37%35%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12070</bandwidth>
+            <frequency>438550000</frequency>
+            <type>NBFM</type>
+            <user_label>%45%6c%62%6c%c4%85%67%20%53%52%32%45%4c%20%2d%20%34%33%38%2e%35%35%30%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12500</bandwidth>
+            <frequency>438975000</frequency>
+            <type>NBFM</type>
+            <user_label>%57%c5%82%61%64%79%73%c5%82%61%77%6f%77%6f%20%53%52%32%47%41%20%2d%20%34%33%38%2e%39%37%35%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12500</bandwidth>
+            <frequency>439025101</frequency>
+            <type>NBFM</type>
+            <user_label>%43%68%77%61%73%7a%63%7a%79%6e%6f%20%53%52%32%47%54%20%2d%20%34%33%39%2e%30%32%35%30</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>12070</bandwidth>
+            <frequency>438550000</frequency>
+            <type>NBFM</type>
+            <user_label>%45%6c%62%6c%c4%85%67%20%53%52%32%45%4c%20%2d%20%34%33%38%2e%35%35%30%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>10152</bandwidth>
+            <frequency>145600000</frequency>
+            <type>NBFM</type>
+            <user_label>%43%68%77%61%73%7a%63%7a%79%6e%6f%20%53%52%32%43%20%2d%20%31%34%35%2e%36%30%30%20%4d%48%7a</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>200000</bandwidth>
+            <frequency>137100000</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%39</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137100000</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%39</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>1</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>41084</bandwidth>
+            <frequency>137912500</frequency>
+            <type>CW</type>
+            <user_label>%4e%4f%41%41%20%31%38</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>2.09836</gain>
+            <muted>0</muted>
+            <settings>
+                <auto>on</auto>
+                <gain>32.902618</gain>
                 <offset>650.000000</offset>
             </settings>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137912500</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%38</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>2.09836</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137500000</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%37</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>2.09836</gain>
+            <muted>0</muted>
+        </modem>
+        <modem>
+            <bandwidth>40000</bandwidth>
+            <frequency>137620000</frequency>
+            <type>FM</type>
+            <user_label>%4e%4f%41%41%20%31%35</user_label>
+            <squelch_level>-100</squelch_level>
+            <squelch_enabled>1</squelch_enabled>
+            <output_device>Built-in Audio</output_device>
+            <gain>2.09836</gain>
+            <muted>0</muted>
         </modem>
     </recent_modems>
 </cubicsdr_bookmarks>
